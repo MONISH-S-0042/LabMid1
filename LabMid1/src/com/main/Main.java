@@ -1,8 +1,7 @@
 package com.main;
-import java.util.*;
 public class Main {
 	public static void main(String args[]) {
-		int mark=new Scanner(System.in).nextInt();
+		int mark=Integer.parseInt(args[0]);
 		System.out.println("Marks scored-"+mark);
 		if(mark>=90) {
 			System.out.println("S grade");
