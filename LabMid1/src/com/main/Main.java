@@ -2,7 +2,7 @@ package com.main;
 import java.util.*;
 public class Main {
 	public static void main(String args[]) {
-		int mark=77;
+		int mark=new Scanner(System.in).nextInt();
 		System.out.println("Marks scored-"+mark);
 		if(mark>=90) {
 			System.out.println("S grade");
